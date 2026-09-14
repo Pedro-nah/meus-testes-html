@@ -148,5 +148,12 @@ footer:hover p {
     padding: 0px;
     overflow-y: hidden;
 }
-    
-
+#loveiu button{
+  background-color: red;
+  color: rgb(0, 0, 0);
+  
+}
+    #loveiu button:hover {
+      background-color: black;
+      color: red;
+    }
