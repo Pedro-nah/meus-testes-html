@@ -1,0 +1,152 @@
+@charset "UTF-8";
+html, body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+    
+header {
+    background-color: #041978;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+     
+}
+
+    
+header h1 {
+    margin: 0px;
+    transition: 0.5s;
+}
+header h1:hover {
+    color: black;
+    transform: scale(1.2);
+    overflow: hidden;
+
+}
+
+nav {
+    display: flex;
+    padding-top:25px;
+    gap: 20px;
+    justify-content: center;
+    
+}
+#menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:8px;
+    transition: 0.3s;
+    text-align: center;
+
+}
+#menu a:hover {
+    background-color: white;
+    color: #041978;
+    border-color: #041978;
+    transform: scale(1.10);
+}
+
+body {
+  margin: 0;
+    background-color: #0521a1;
+    color: #030202;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+main {
+  background-color: white;
+  padding: 50px;
+  border-radius: 30px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0px 5px 15px #00000055;
+}
+main > h2 {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0521a1;
+  transition: 0.5s;
+}
+main > h2:hover {
+    transform: scale(1.2);
+}
+
+main > h3 {
+  font-size: 24px;
+  margin: 40px 20px 25px;
+  border-left: 5px solid #0521a1;
+  padding-left: 10px;
+}
+p {
+  margin: 20px;
+  line-height: 1.6;
+}
+#produtos {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.produto button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.produto button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+.produto:hover {
+  transform: scale(1.03);
+  background-color: rgb(246, 244, 244);
+}
+#preco {
+  color: #0521a1;
+  transition: 0.3s;
+}
+.produto:hover > #preco {
+  transform: scale(1.03);
+  color: orange;
+  
+}
+.produto {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px;
+  text-align: center;
+  width: 260px;
+  transition: 0.3s;
+}
+footer {
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+footer:hover{
+    background-color: black;
+    color: white;
+    
+}
+footer p {
+    margin: 0px;
+}
+footer:hover p {
+    transform: scale(1.05);
+    padding: 0px;
+    overflow-y: hidden;
+}
+    
+
